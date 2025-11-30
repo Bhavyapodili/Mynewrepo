@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Code Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+        .code-container {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto; /* Allows horizontal scrolling for long lines */
+        }
+        .code-container pre {
+            margin: 0; /* Remove default margin from pre tag */
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .code-container .keyword {
+            color: #c678dd; /* Purple */
+        }
+        .code-container .string {
+            color: #98c379; /* Green */
+        }
+        .code-container .comment {
+            color: #5c6370; /* Gray */
+            font-style: italic;
+        }
+        .code-container .number {
+            color: #d19a66; /* Orange */
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Code Example</h1>
+    <div class="code-container">
+        <pre><span class="keyword">def</span> <span class="keyword">greet</span>(name):
+    <span class="string">"""
+    This function greets the given name.
+    """</span>
+    <span class="comment"># Print a greeting message</span>
+    <span class="keyword">print</span>(<span class="string">f"Hello, {name}!"</span>)
+
+<span class="keyword">greet</span>(<span class="string">"World"</span>)
+<span class="keyword">print</span>(<span class="number">123</span>)</pre>
+    </div>
+</body>
+</html>
